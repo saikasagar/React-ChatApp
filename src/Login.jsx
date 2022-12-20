@@ -18,7 +18,7 @@ const Login = () => {
         e.preventDefault()
         if(authData.email ===serverData.email && authData.password ===serverData.password){
             console.log("login Successfull")
-            navigate("/chat")
+            navigate("/dashboard")
         } else {
             console.log("error")
         }
